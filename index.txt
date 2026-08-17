@@ -90,6 +90,16 @@
 
 <section>
   <div class="wrap">
+    <h2>Education</h2>
+    <div class="exp-item">
+      <div class="role">M.S. Computer Science - Florida Atlantic University</div>
+      <div class="meta">GPA: 3.9 / 4.0</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
     <h2>Skills</h2>
     <div class="skills-grid">
       <div class="skill-card">
@@ -132,7 +142,7 @@
           <div><h5>Problem</h5><p>Manual search through large document sets was slow and inconsistent.</p></div>
           <div><h5>Approach</h5><p>Built a RAG pipeline using LangChain, OpenAI embeddings, and FAISS, exposed via a FastAPI backend.</p></div>
         </div>
-        <div class="outcome">Reduced document lookup time by ~35% and improved answer relevance by ~20% through prompt engineering and chunking optimization.</div>
+        <div class="outcome">Reduced document lookup time by ~35% and improved answer relevance by ~20% through prompt engineering and chunking optimization. <span style="color:var(--muted);font-size:0.85rem;">Methodology: measured manual keyword search vs. RAG query response time across 30 sample questions over a 50-document test set.</span></div>
         <div class="cta">
           <a href="https://github.com/omprakash1012/rag-document-qa-chatbot" target="_blank" rel="noopener">View Code</a>
         </div>
@@ -145,7 +155,7 @@
           <div><h5>Problem</h5><p>Business needed to proactively identify customers likely to churn.</p></div>
           <div><h5>Approach</h5><p>Engineered features from behavior data and trained classification models, tuning hyperparameters for recall/precision trade-off.</p></div>
         </div>
-        <div class="outcome">Achieved strong ROC-AUC on held-out data, enabling targeted retention campaigns for the highest-risk segment.</div>
+        <div class="outcome">Achieved strong ROC-AUC on held-out data, enabling targeted retention campaigns for the highest-risk segment. <span style="color:var(--muted);font-size:0.85rem;">Methodology: Logistic Regression, 0.73 ROC-AUC on a 20% held-out split of the synthetic dataset (5000 rows); see repo README for the full model comparison table.</span></div>
         <div class="cta">
           <a href="https://github.com/omprakash1012/customer-churn-prediction" target="_blank" rel="noopener">View Code</a>
         </div>
@@ -158,7 +168,7 @@
           <div><h5>Problem</h5><p>Business required improved short-term demand forecasts to optimize inventory/staffing.</p></div>
           <div><h5>Approach</h5><p>Built and validated time-series forecasting models, visualizing results in Power BI dashboards.</p></div>
         </div>
-        <div class="outcome">Improved forecast accuracy substantially versus a naive baseline, validated on a 30-day holdout window.</div>
+        <div class="outcome">Improved forecast accuracy substantially versus a naive baseline, validated on a 30-day holdout window. <span style="color:var(--muted);font-size:0.85rem;">Methodology: Prophet MAPE 3.91% vs. naive baseline MAPE 8.46% (a 53.8% improvement), evaluated on a 30-day walk-forward holdout; full breakdown in reports/metrics.json.</span></div>
         <div class="cta">
           <a href="https://github.com/omprakash1012/sales-demand-forecasting" target="_blank" rel="noopener">View Code</a>
         </div>
